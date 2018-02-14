@@ -1,4 +1,4 @@
-.body{
+body{
   width: 70%;
   margin: auto;
 }
@@ -9,4 +9,21 @@
 
 .logo{
   width: 15%;
+}
+
+img{
+  width: 50px;
+}
+
+.redes_sociales{
+  text-align: right;
+}
+
+.cuerpo{
+  background-color: red;
+}
+
+
+.contenido{
+  background-color: yellow;
 }
