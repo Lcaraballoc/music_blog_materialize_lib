@@ -2,28 +2,34 @@ body{
   width: 70%;
   margin: auto;
 }
-
 .navbar{
   background-color: green;
 }
-
 .logo{
   width: 15%;
 }
-
 img{
   width: 50px;
 }
-
 .redes_sociales{
   text-align: right;
 }
-
 .cuerpo{
   background-color: red;
+  padding: 10px;
 }
-
-
 .contenido{
   background-color: yellow;
+}
+.articulos, .contenedor{
+  background-color: grey;
+  border: 2px solid black;
+  padding: 30px;
+}
+.menu-lateral{
+  padding-left: 3%;
+  padding-right: 2%;
+}
+.icono{
+  width: 20px !important;
 }
