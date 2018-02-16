@@ -2,8 +2,9 @@
   background-color: #535353;
 }
 body{
-  width: 70%;
-  margin: auto;
+  width: 80%;
+  margin-left:auto ;
+  margin-right: auto;
 }
 .navbar{
   background-color: white;
@@ -15,10 +16,13 @@ body{
   border-bottom-right-radius: 20px;
 }
 .logo{
-  width: 45%;
+  width: 180px;
 }
 .iconos-sociales{
   width: 50px;
+}
+.comentario_icono{
+  width: 90%;
 }
 .redes_sociales{
   text-align: right;
@@ -48,7 +52,18 @@ body{
 }
 .foto_articulo{
   border: 6px solid #88d317;
+  width: 95%;
+  vertical-align: middle;
 }
 hr{
   border: 2px solid white;
+}
+
+@media(max-width:600px){
+  body{
+    width: 100%;
+  }
+  .comentario_icono{
+    width: 80px;
+  }
 }
