@@ -2,7 +2,7 @@
   background-color: #535353;
 }
 body{
-  width: 80%;
+  width: 75%;
   margin-left:auto ;
   margin-right: auto;
 }
@@ -16,10 +16,13 @@ body{
   border-bottom-right-radius: 20px;
 }
 .logo{
-  width: 180px;
+  width: 190px;
+  padding-top:15px;
+  padding-bottom: 15px;
 }
 .iconos-sociales{
-  width: 50px;
+  width: 30px;
+  margin-top: 30px;
 }
 .comentario_icono{
   width: 90%;
@@ -37,8 +40,9 @@ body{
 .articulos, .contenedor{
   background-color: #3e3667;
   color: white;
-  border: 2px solid black;
+  border: 2px solid white;
   padding: 30px;
+  min-height: 50rem;
 }
 .menu-lateral{
   padding-left: 3%;
@@ -65,5 +69,16 @@ hr{
   }
   .comentario_icono{
     width: 80px;
+    padding-top: 10px;
   }
+  .comentario_box{
+    margin-top: 10px;
+  }
+  .foto_articulo{
+    margin-bottom: 10px;
+  }
+  .redes_sociales{
+    text-align: center;
+  }
+
 }
